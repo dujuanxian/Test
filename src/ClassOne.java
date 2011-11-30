@@ -7,9 +7,11 @@
  */
 public class ClassOne {
     private String name = "Du Juan";
+    private int id = 0;
 
     public void showname(){
         System.out.println(name);
+        System.out.println(++id);
     }
 
     public static void main(String[] args){
