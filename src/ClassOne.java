@@ -6,7 +6,15 @@
  * To change this template use File | Settings | File Templates.
  */
 public class ClassOne {
+    private String name = "Du Juan";
+
+    public void showname(){
+        System.out.println(name);
+    }
+
     public static void main(String[] args){
+        ClassOne c = new ClassOne();
+        c.showname();
         System.out.println("Class One");
     }
 }
